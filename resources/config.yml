@@ -1,0 +1,18 @@
+---
+# Inventory Notifier Config
+# determines if it is enable by default
+default: true
+# bypass checking for permission
+disable-permission: true
+# how often the inventory get checked in ticks
+task: "200"
+# how many times to notify the player before stopping
+notify: "5"
+# how long does it take before it re notify users(in minutes)
+renotify: "5"
+# notify message
+# syntax for colour code:
+# ![COLOUR_NAME]
+# refer TextFormat for available colours
+message: "![BOLD]![RED][Notice]![YELLOW] &player ![WHITE]your inventory is full!"
+...

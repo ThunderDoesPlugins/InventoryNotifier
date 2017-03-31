@@ -1,0 +1,18 @@
+name: InventoryNotifier
+version: 1.0.0
+api: [2.0.0]
+author: Thunder33345
+description: "Notify players when their inventory is full!"
+main: Thunder33345\InventoryNotifier\Loader
+
+commands:
+  inventorynotifier:
+    aliases: ["invnoti"]
+
+permissions:
+  inventorynotifier:
+    default: false
+    child:
+      inventorynotifier.use:
+        default: true
+        description: "Allows player to be notified or to toggle self settings"
